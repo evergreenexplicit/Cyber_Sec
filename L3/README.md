@@ -1,5 +1,5 @@
 # Metoda d'Hondta
-W metodzie d'Hondta obliczane są wyniki dzielenia liczby głosów oddane na poszczególne partie (które przekroczyły próg) przez kolejne liczby naturalne (bez zera). O podziale miejsc pomiędzy komitetami decyduje kolejność na liście posortowanych ilorazów wyborczych.
+W metodzie d'Hondta obliczane są wyniki dzielenia liczby głosów oddane na poszczególne partie (które przekroczyły próg) przez kolejne liczby naturalne (bez zera). Wyniki te nazywamy ilorazami wyborczymi. O podziale miejsc pomiędzy komitetami decyduje kolejność na liście posortowanych ilorazów wyborczych.
 
 # Wyniki dla wyborów parlamentarnych w 2011
 
@@ -48,49 +48,7 @@ nr okregu | nazwa  |  PO |  PSL |  PiS |  RPL |  SLD |  MN | Last | Lost | Róż
 41  |  Szczecin |  7 |  0 |  3 |  1 |  1 |  0 |  PO  |  RPL  |  0.76
 
 # Najmniejsze różnice wzgl. procentów oddanych głosów między Last i Lost
-Okręg | Last | Lost | Różnica
--|-|-|-
-Siedlce  |  RPL  |  PiS  |  0.05
-Legnica  |  SLD  |  PO  |  0.07
-Kraków I  |  PO  |  RPL  |  0.12
-Kraków II  |  PO  |  SLD  |  0.12
-Wałbrzych  |  PO  |  SLD  |  0.13
-Wrocław  |  PO  |  SLD  |  0.22
-Katowice  |  SLD  |  PiS  |  0.25
-Piotrków Trybunalski  |  RPL  |  PO  |  0.27
-Rzeszów  |  SLD  |  PiS  |  0.27
-Sieradz  |  PiS  |  PSL  |  0.30
-Chełm  |  PO  |  PiS  |  0.30
-Kalisz  |  PSL  |  PO  |  0.41
-Gdańsk  |  PO  |  SLD  |  0.44
-Gdynia  |  PO  |  PSL  |  0.45
-Radom  |  RPL  |  PiS  |  0.50
-Gliwice  |  PO  |  SLD  |  0.51
-Kielce  |  PO  |  PSL  |  0.54
-Poznań  |  SLD  |  PO  |  0.57
-Krosno  |  RPL  |  PiS  |  0.67
-Lublin  |  RPL  |  PiS  |  0.75
-Białystok  |  PO  |  PSL  |  0.83
-Płock  |  RPL  |  SLD  |  0.86
-Rybnik  |  PO  |  SLD  |  1.06
-Łódź  |  PiS  |  PO  |  1.30
-Warszawa II  |  PO  |  PiS  |  1.30
-Częstochowa  |  SLD  |  PiS  |  1.37
-Nowy Sącz  |  PiS  |  PO  |  1.52
-Szczecin  |  PO  |  RPL  |  1.52
-Opole  |  PiS  |  PO  |  1.70
-Piła  |  PiS  |  PO  |  1.82
-Olsztyn  |  PO  |  PiS  |  1.97
-Bielsko-Biała  |  PO  |  PiS  |  2.26
-Sosnowiec  |  PO  |  RPL  |  2.39
-Zielona Góra  |  PiS  |  PO  |  2.54
-Koszalin  |  PiS  |  PO  |  2.68
-Toruń  |  PiS  |  PO  |  3.03
-Warszawa I  |  PO  |  PO  |  4.08
-Konin  |  PiS  |  PO  |  4.26
-Tarnów  |  PiS  |  PO  |  5.31
-Bydgoszcz  |  PO  |  PO  |  6.18
-Elbląg  |  PO  |  PO  |  8.47
+
 
 Okręg | Last | Lost | Różnica
 -|-|-|-
@@ -166,5 +124,8 @@ wydanie wszystkich głosów jako nieważnych.
  Z przeprowadzonych rozważań możemy zauważyć, że choć pochłonięcie lokalu wyborczego intuicyjnie wydaje się mieć większy wpływ, manipulowanie progiem poprzez unieważnienie głosów przechodzących przez parszywe łapska naszych agentów generuje znacznie lepsze rezultaty, jako że wpływamy na większą liczbę głosów.
 
 # Zapobieganie manipulacjom
+- W przypadku przejętego lokalu, niezbędne byłyby zewnętrzne kontrole sprawdzające autentyczność wysyłanych wyników.
 
-W przypadku podłożenego agenta w każdym lokalu, najlepszą kontrą jest wielokrotna weryfikacja oddanej karty z głosem przez kilku członków komisji. Należałoby też zadbać, aby nasz agent nie mógł zmodyfikować karty, zanim ujrzą ją inni członkowie, ważna jest zatem losowa kolejność weryfikacji przez pracowników oraz uniemożliwienie weryfikacji samotnie, aby agent nie zmodyfikował karty jako pierwszy.
+- W przypadku podłożenego agenta w każdym lokalu, najlepszą kontrą jest wielokrotna weryfikacja oddanej karty z głosem przez kilku członków komisji. Należałoby też zadbać, aby nasz agent nie mógł zmodyfikować karty, zanim ujrzą ją inni członkowie, ważna jest zatem losowa kolejność weryfikacji przez pracowników oraz uniemożliwienie weryfikacji samotnie, aby agent nie zmodyfikował karty jako pierwszy.
+
+Profilaktykę, jaką możemy podjąć poza okresem wyborów, jest rozproszenie kompetencji dobierania komisji. Na chwilę obecną obowiązek ten przypada tylko wójtowi, co ułatwiłoby nam zadanie, jako że dużo prościej byłoby zmanipulować pojedynczą osobę.
