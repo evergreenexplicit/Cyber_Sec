@@ -1,0 +1,30 @@
+Benchmarking poczta.pwr.edu.pl (be patient).....done
+
+
+Server Software:        
+Server Hostname:        poczta.pwr.edu.pl
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        poczta.pwr.edu.pl
+
+Document Path:          /
+Document Length:        653299 bytes
+
+Concurrency Level:      1
+Time taken for tests:   5.007 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      653597 bytes
+HTML transferred:       653299 bytes
+Requests per second:    0.20 [#/sec] (mean)
+Time per request:       5007.069 [ms] (mean)
+Time per request:       5007.069 [ms] (mean, across all concurrent requests)
+Transfer rate:          127.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        2    2   0.0      2       2
+Processing:  5005 5005   0.0   5005    5005
+Waiting:        1    1   0.0      1       1
+Total:       5007 5007   0.0   5007    5007

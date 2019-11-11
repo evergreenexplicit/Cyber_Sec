@@ -1,0 +1,18 @@
+Server Software:        
+Server Hostname:        poczta.pwr.edu.pl
+Server Port:            80
+
+Document Path:          /
+Document Length:        653299 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.008 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      653597 bytes
+HTML transferred:       653299 bytes
+Requests per second:    122.19 [#/sec] (mean)
+Time per request:       8.184 [ms] (mean)
+Time per request:       8.184 [ms] (mean, across all concurrent requests)
+Transfer rate:          77991.00 [Kbytes/sec] received
