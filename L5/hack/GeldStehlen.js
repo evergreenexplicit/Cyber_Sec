@@ -12,7 +12,6 @@ if (window.location == "http://localhost:8000/new_transaction" ) {
   p.innerHTML = "Money sent without any kind of fraud dont worry at all";
 
 } else if (window.location == "http://localhost:8000/menu") {
-  console.log("here3");
   const recipients = document.querySelectorAll(".table > tbody:nth-child(2) > tr > td:nth-child(2)");
   for (field of recipients) {
     if (field.innerText == beneficjent) {
