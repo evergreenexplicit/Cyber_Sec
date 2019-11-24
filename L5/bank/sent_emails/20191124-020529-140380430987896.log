@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: konrad.grochowski@o2.pl
+Date: Sun, 24 Nov 2019 02:05:29 -0000
+Message-ID: <157456112925.13345.16463845671005097181@5bet>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8000.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8000/accounts/reset/OQ/5bp-0a10f4b65ddb7849c522/
+
+Your username, in case you've forgotten: klijent500
+
+Thanks for using our site!
+
+The localhost:8000 team
+
+
+
+-------------------------------------------------------------------------------

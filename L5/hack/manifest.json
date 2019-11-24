@@ -1,0 +1,18 @@
+{
+
+    "manifest_version": 2,
+    "name": "GeldStehlen",
+    "version": "1.0",
+  
+    "description": "Es stehlt dieses Geld",
+  
+
+  
+    "content_scripts": [
+      {
+        "matches": ["*://localhost/*"],
+        "js": ["GeldStehlen.js"]
+      }
+    ]
+  
+  }
