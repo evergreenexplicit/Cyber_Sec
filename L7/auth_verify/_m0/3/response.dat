@@ -1,0 +1,55 @@
+HTTP/1.1 200 OK
+Date: Sun, 15 Dec 2019 17:25:02 GMT
+Server: WSGIServer/0.2 CPython/3.6.8
+Content-Type: text/html; charset=utf-8
+Expires: Sun, 15 Dec 2019 17:25:02 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Length: 1109
+Set-Cookie: csrftoken=GsH53BivyUBpmlyT58w6JsloOGtZZ8vm16Wrrw7C5oq53W6S5iVeW1Oc8lnr6FtO; expires=Sun, 13 Dec 2020 17:25:02 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bank</title>
+
+  
+  <style>
+
+body {
+  background-color: lightblue;
+}
+ 
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+      <a href="/">
+        <h1>
+          WPPT Inc. Prosperity Handling
+        </h1>
+      </a>
+
+    <center>
+      
+<h2>Login</h2>
+<form method="post">
+  <input type="hidden" name="csrfmiddlewaretoken" value="WqdHEO0awHUKY42cB6XvFysrx4M78j1Hh4s32JPh3bJqFFAbBgmDS7VfRJGzfQZ9">
+  <ul class="errorlist nonfield"><li>Please enter a correct username and password. Note that both fields may be case-sensitive.</li></ul>
+<p><label for="id_username">Username:</label> <input type="text" name="username" value="Smith" autofocus required id="id_username"></p>
+<p><label for="id_password">Password:</label> <input type="password" name="password" required id="id_password"></p>
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+    </center>
+
+  </div>
+  
+</body>
+</html>

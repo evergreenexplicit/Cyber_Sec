@@ -1,0 +1,46 @@
+HTTP/1.1 200 OK
+Date: Sun, 15 Dec 2019 17:25:12 GMT
+Server: WSGIServer/0.2 CPython/3.6.8
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Content-Length: 679
+
+<!-- templates/registration/password_reset_done.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bank</title>
+
+  
+  <style>
+
+body {
+  background-color: lightblue;
+}
+ 
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+      <a href="/">
+        <h1>
+          WPPT Inc. Prosperity Handling
+        </h1>
+      </a>
+
+    <center>
+      
+  <h1>Check your inbox.</h1>
+  <p>We've emailed you instructions for setting your password. You should receive the email shortly!</p>
+
+    </center>
+
+  </div>
+  
+</body>
+</html>
