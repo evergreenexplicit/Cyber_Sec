@@ -1,0 +1,43 @@
+HTTP/1.1 200 OK
+Date: Sat, 14 Dec 2019 22:43:10 GMT
+Server: WSGIServer/0.2 CPython/3.6.8
+Content-Type: text/html; charset=utf-8
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Length: 1099
+Set-Cookie: csrftoken=FboicvNuLsNI4eondPskuamR0esjAJuuPGcglRMs87izj36u68ZTfzibxE4CRnqy; expires=Sat, 12 Dec 2020 22:43:10 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!-- templates/registration/password_reset_form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bank</title>
+
+  
+  <style>
+
+body {
+  background-color: lightblue;
+}
+ 
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+      <a href="/">
+        <h1>
+          WPPT Inc. Prosperity Handling
+        </h1>
+      </a>
+
+    <center>
+      
+  <h1>Forgot your password?</h1>
+  <p>Enter your email address below, and we'll email instructions for setting a new one.</p>
+
+  <form method="POST"

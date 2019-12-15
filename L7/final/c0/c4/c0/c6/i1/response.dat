@@ -1,0 +1,97 @@
+HTTP/1.1 200 OK
+Date: Sat, 14 Dec 2019 16:12:00 GMT
+Server: WSGIServer/0.2 CPython/3.6.8
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie
+Content-Length: 2331
+Set-Cookie: csrftoken=of1uiZiVVq9awZuhGFWJcwfGxeGN9EMOpZTeKEoTFQ2ovj2poOYnZwgGYGW3N3JA; expires=Sat, 12 Dec 2020 16:12:00 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bank</title>
+
+  
+  <style>
+
+body {
+  background-color: lightblue;
+}
+ 
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+      <a href="/">
+        <h1>
+          WPPT Inc. Prosperity Handling
+        </h1>
+      </a>
+
+    <center>
+      
+<form method="post">
+    <input type="hidden" name="csrfmiddlewaretoken" value="CtPxUE7E3VucBIwXymxteziS5cJod7a1DdHhmjdCNlnqA245gvz71zjSwEZERw7N">
+    
+      <p>
+        <label for="id_username">Username:</label><br>
+        <input type="text" name="username" value="Smith" maxlength="150" autofocus required id="id_username"><br>
+        
+          <small style="color: grey">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</small>
+        
+        <br>
+        
+      </p>
+      
+    
+      <p>
+        <label for="id_email">Email:</label><br>
+        <input type="email" name="email" value="skipfish@example.com" maxlength="254" required id="id_email"><br>
+        
+          <small style="color: grey">Required. Inform a valid email address.</small>
+        
+        <br>
+        
+      </p>
+      
+    
+      <p>
+        <label for="id_password1">Password:</label><br>
+        <input type="password" name="password1" required id="id_password1"><br>
+        
+          <small style="color: grey"><ul><li>Your password can&#39;t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can&#39;t be a commonly used password.</li><li>Your password can&#39;t be entirely numeric.</li></ul></small>
+        
+        <br>
+        
+      </p>
+      
+    
+      <p>
+        <label for="id_password2">Password confirmation:</label><br>
+        <input type="password" name="password2" required id="id_password2"><br>
+        
+          <small style="color: grey">Enter the same password as before, for verification.</small>
+        
+        <br>
+        
+          <p style="color: red">The password is too similar to the email address.</p>
+        
+      </p>
+      
+    
+    <button type="submit" class="btn btn-primary">Register</button>
+  </form>
+
+    </center>
+
+  </div>
+  
+</body>
+</html>>
+<body1	

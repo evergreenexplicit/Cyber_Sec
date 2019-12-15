@@ -1,0 +1,8 @@
+HTTP/1.1 302 Found
+Date: Sat, 14 Dec 2019 22:05:16 GMT
+Server: WSGIServer/0.2 CPython/3.6.8
+Content-Type: text/html; charset=utf-8
+Location: /accounts/password_reset/done/
+X-Frame-Options: SAMEORIGIN
+Content-Length: 0
+

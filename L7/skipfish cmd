@@ -1,0 +1,9 @@
+skipfish --auth-form http://127.0.0.1:8000/accounts/login/ \
+             --auth-user klijent500 \
+             --auth-pass bezpieka \
+             --auth-verify-url http://127.0.0.1:8000/menu \
+             -S complete.wl \
+             -o skipfish_output_complete_auth_v2 \
+             http://127.0.0.1:8000/
+skipfish  -o skipfish_complete http://127.0.0.1:8000/
+skipfish -A klijent500:bezpieka -S complete.wl -o final http://localhost:8000

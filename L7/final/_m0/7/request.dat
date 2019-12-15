@@ -1,0 +1,10 @@
+GET /register HTTP/1.1
+Host: localhost:8000
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://localhost/
+Authorization: Basic a2xpamVudDUwMDpiZXpwaWVrYQ==
+Cookie: csrftoken=FboicvNuLsNI4eondPskuamR0esjAJuuPGcglRMs87izj36u68ZTfzibxE4CRnqy
+

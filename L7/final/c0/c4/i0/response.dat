@@ -1,0 +1,39 @@
+HTTP/1.1 200 OK
+Date: Sat, 14 Dec 2019 16:11:15 GMT
+Server: WSGIServer/0.2 CPython/3.6.8
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie
+Content-Length: 2193
+Set-Cookie: csrftoken=hcnCcUWlLeWWk4SvJqjRlETLyKZeAsbe9Qi8SFdPfDjOAAtcVZnvHRIrm1qNK102; expires=Sat, 12 Dec 2020 16:11:15 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bank</title>
+
+  
+  <style>
+
+body {
+  background-color: lightblue;
+}
+ 
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+      <a href="/">
+        <h1>
+          WPPT Inc. Prosperity Handling
+        </h1>
+      </a>
+
+    <center>
+      
+<form method="post"
