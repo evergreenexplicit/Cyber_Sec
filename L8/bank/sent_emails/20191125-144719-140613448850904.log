@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: misiek1@wp.pl
+Date: Mon, 25 Nov 2019 14:47:19 -0000
+Message-ID: <157469323958.3968.12818649898545920788@5bet>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8000.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8000/accounts/reset/MTE/5bq-068b01a979cc95b7f6c9/
+
+Your username, in case you've forgotten: misiek1
+
+Thanks for using our site!
+
+The localhost:8000 team
+
+
+
+-------------------------------------------------------------------------------

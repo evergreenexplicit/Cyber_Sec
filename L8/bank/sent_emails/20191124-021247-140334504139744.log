@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: konrad7g@gmail.com
+Date: Sun, 24 Nov 2019 02:12:47 -0000
+Message-ID: <157456156754.14185.247396875578193175@5bet>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8000.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8000/accounts/reset/OA/5bp-e93a3ce84e7f47898f5d/
+
+Your username, in case you've forgotten: gluwnyklijent
+
+Thanks for using our site!
+
+The localhost:8000 team
+
+
+
+-------------------------------------------------------------------------------
